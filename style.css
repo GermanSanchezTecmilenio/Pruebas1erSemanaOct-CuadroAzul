@@ -1,0 +1,45 @@
+/*
+Regla CSS consta de 2 partes_
+
+Selector{
+    Bloque de declaraciones (son los atributos que vamos a modificar)
+    atributo: valor;
+}
+    */
+    h1{
+        color: white;
+        background-color: skyblue;
+    }
+
+    button{
+        background-color: green;
+        color: white;
+    }
+
+    /*Otro tipo de selector es el de clase y se ocupa cuando se requieren estilos diferentes*/
+    .bg-cornflowerblue{
+        background-color: skyblue;
+    }
+    
+    .bg-yellowgreen{
+        background-color: skyblue;
+            }
+
+    .clase1{
+        background-color: skyblue;
+        color: white;
+    }
+
+    .text{
+
+        font-size: 32px;
+        }
+    
+    .text2{
+        background-color: skyblue;
+        width: 200;
+        text-align: center;
+        padding: 25px;
+        width: 300px;
+        cursor: pointer;
+    }

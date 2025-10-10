@@ -43,3 +43,27 @@ Selector{
         width: 300px;
         cursor: pointer;
     }
+
+    /* uso de colores Usar colores por el nombre*/
+
+    .color-by-nombre{
+        background-color: coral;
+        color: rebeccapurple;
+        border: thick solid greenyellow
+    }
+
+    /* Usar colores utilizando el sistema hexadecial*/
+
+    .color-hex{
+        background-color: #FF7F50;
+        color: #663399 ;
+        border: thick solid #9acd32;
+    }
+    
+    /*Usar colores usando el formato R(red) G(green) B(Blue)*/
+    .color-rgb{
+          background-color: rgb(255,127,80);
+           color: rgb(102,51,153);
+            border: thick solid rgb(173,255,47);
+    }
+    
